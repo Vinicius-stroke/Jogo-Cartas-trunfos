@@ -97,6 +97,19 @@ int main(){
     printf("Numero de Pontos Turisticos: %d\n", c2.pontosTuristicos);
     printf("Densidade Populacional: %.2f hab/km²\n", c2.densidadePopulacional);
     printf("PIB per Capita: %.2f reais\n", c2.PIBperCapita);
-    printf("Superpoder: %.2f\n", c2.superpoder);        
+    printf("Superpoder: %.2f\n", c2.superpoder); 
+
+
+    ////// Comparacao das cartas //////
+
+    printf("\n=== Comparacao das Cartas ===\n");
+    printf("Populacao: %s\n", (c1.populacao >= c2.populacao)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("Area: %s\n", (c1.area >= c2.area)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("Pib: %s\n", (c1.pib >= c2.pib)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("Pontos Turisticos: %s\n", (c1.pontosTuristicos >= c2.pontosTuristicos)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("Densidade Populacional: %s\n", (c1.densidadePopulacional >= c2.densidadePopulacional)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("PIB per Capita: %s\n", (c1.PIBperCapita >= c2.PIBperCapita)? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");;
+    printf("Super Poder: %s\n", (c1.superpoder >= c2.superpoder) ? "Carta 1 Venceu(1)" : "Carta 2 Venceu(0)");
     
 }
+
